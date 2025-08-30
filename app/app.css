@@ -50,6 +50,10 @@ form {
 }
  
 @layer components {
+  .gradient-bg {
+    background: #eee1f5;
+    background: radial-gradient(circle,rgba(238, 225, 245, 1) 60%, rgba(64, 64, 255, 1) 100%);
+  }
   .text-gradient {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-[#AB8C95] via-[#000000] to-[#8E97C5];
   }
