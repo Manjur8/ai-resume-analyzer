@@ -39,8 +39,14 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body className="light-gradient min-h-screen flex items-center justify-center p-4 relative">
         <script src="https://js.puter.com/v2/"></script>
+        {/* <!-- Floating Background Shapes --> */}
+        <div className="floating-shapes">
+            <div className="shape"></div>
+            <div className="shape"></div>
+            <div className="shape"></div>
+        </div>
         {children}
         <ScrollRestoration />
         <Scripts />
