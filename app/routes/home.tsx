@@ -40,7 +40,7 @@ export default function Home() {
     loadResumes()
   }, []);
 
-  return <main className="gradient-bg bg-cover">
+  return <main className="w-full">
     <Navbar />
     <section className="main-section">
       <div className="page-heading py-16">
