@@ -89,7 +89,7 @@ const Upload = () => {
     }
 
     return (
-        <main className="gradient-bg bg-cover">
+        <main className="w-full">
             <Navbar />
             <section className="main-section">
                 <div className="page-heading py-16">
